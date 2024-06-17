@@ -209,19 +209,15 @@ void encodeString(char *str)
         }
     }
 
-    // Calcular o tamanho original em bits (8 bits por caractere)
     int originalLength = strlen(str) * 8;
 
-    // Calcular o número mínimo de bits para representar todos os caracteres
     int uniqueChars = tableSize;
     int minBits = (int)ceil(log2(uniqueChars));
     int minLength = strlen(str) * minBits;
 
-    // Calcular as taxas de compactação
     double compressionRate8Bits = (1 - (double)encodedLength / originalLength) * 100;
     double compressionRateMinBits = (1 - (double)encodedLength / minLength) * 100;
 
-    // Imprimir a string codificada e as taxas de compactação
     printf("%s %.2f%% %.2f%%\n", encodedStr, compressionRate8Bits, compressionRateMinBits);
 }
 
