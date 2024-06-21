@@ -1,3 +1,7 @@
+Trabalho Prático 06 - Algoritmo de Huffman
+Heitor Lemes Caldas - SC303769X
+Gustavo Gomes Contiero - SC3037754
+
 Implementação do Algoritmo de Huffman
 
 O objetivo deste projeto é implementar um programa em linguagem C que utilize o Algoritmo de Huffman para compressão de dados. O Algoritmo de Huffman é um método eficiente de compressão que cria uma árvore binária baseada nas frequências dos caracteres em um texto, gerando uma codificação de comprimento variável onde os caracteres mais frequentes têm códigos mais curtos. Esta técnica é amplamente utilizada em diversas aplicações de compressão de dados.
