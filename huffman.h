@@ -40,4 +40,4 @@ void clearTable();
 
 Node* buildHuffmanTreeFromTable();
 
-#endif // HUFFMAN_H
+#endif
