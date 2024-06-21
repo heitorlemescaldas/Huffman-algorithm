@@ -28,7 +28,7 @@ void insertMinHeap(MinHeap* minHeap, Node* node);
 void buildMinHeap(MinHeap* minHeap);
 MinHeap* createAndBuildMinHeap(char characters[], int frequencies[], int size);
 Node* buildHuffmanTree(char characters[], int frequencies[], int size);
-void printCodes(Node* root, int arr[], int top);
+void storeCodes(Node* root, int arr[], int top);
 void HuffmanCodes(char characters[], int frequencies[], int size);
 
 void addCharacter(char character, int frequency);
@@ -40,4 +40,4 @@ void clearTable();
 
 Node* buildHuffmanTreeFromTable();
 
-#endif
+#endif // HUFFMAN_H
